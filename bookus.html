@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Us - Wedding Planning Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe6e6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #b30000;
+        }
+
+        nav {
+            background-color: #ffcccc;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #b30000;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        form button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #b30000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #990000;
+        }
+
+        footer {
+            background-color: #ffe6e6;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #b30000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Us</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./tips.html">Planning Tips</a>
+        <a href="./vendors.html">Vendor Lists</a>
+        <a href="./themes.html">Wedding Themes</a>
+    </nav>
+
+    <main>
+        <h2>Book Your Dream Wedding With Us</h2>
+        <p>Fill out the form below, and our team will get in touch with you to make your special day unforgettable.</p>
+
+        <form action="./submit.html">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Wedding Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="details">Additional Details</label>
+            <textarea id="details" name="details" rows="4" placeholder="Share any specific requirements or ideas."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wedding Planning Website. All rights reserved.</p>
+        <br>
+        <p>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./AboutUs.html">About Us</a>
+            <a href="./Social.html">Social</a>
+        </p>
+    </footer>
+</body>
+</html>

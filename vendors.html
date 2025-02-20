@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vendor Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe6e6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #b30000;
+        }
+
+        nav {
+            background-color: #ffcccc;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #b30000;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .vendor-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .vendor {
+            background-color: #fff;
+            border: 1px solid #ffe6e6;
+            border-radius: 5px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .vendor h3 {
+            margin-top: 0;
+            color: #b30000;
+        }
+
+        .vendor img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            font-size: 1.2em;
+            color: #ffcc00;
+        }
+
+        .food-types {
+            font-style: italic;
+            color: #666;
+        }
+
+        .quality {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        footer {
+            background-color: #ffe6e6;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #b30000;
+        }
+
+        a {
+            color: rgb(113, 4, 4);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vendor Lists</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./tips.html">Planning Tips</a>
+        <a href="./themes.html">Wedding Themes</a>
+    </nav>
+
+    <main>
+        <section id="vendors">
+            <h2>Find Your Perfect Vendor</h2>
+            <p>Here is a list of trusted wedding vendors with ratings and reviews.</p>
+            
+            <div class="vendor-list">
+                <div class="vendor">
+                    <img src="./images/vendors/wedding-catering-service.jpg" alt="Vendor 1">
+                    <h3>Gourmet Catering Co.</h3>
+                    <p class="rating">Rating: ★★★★☆ (4.5/5)</p>
+                    <p class="food-types">Food Types: Italian, French, Vegetarian</p>
+                    <p class="quality">Quality: Exceptional taste with locally sourced ingredients. Guests rave about the personalized menus and stunning presentation.</p>
+                </div>
+
+                <div class="vendor">
+                    <img src="./images/vendors/questions-to-asj-wedding-photographer-recirc-getty-images--61ea34e9e287426d9ca41ae4615e964a.jpg" alt="Vendor 2">
+                    <h3>Elegant Weddings Photography</h3>
+                    <p class="rating">Rating: ★★★★★ (5/5)</p>
+                    <p class="food-types">Services: Photography, Video, Engagement Shoots</p>
+                    <p class="quality">Quality: Highly skilled photographers who capture every moment beautifully. Known for their creative shots and attention to detail.</p>
+                </div>
+
+                <div class="vendor">
+                    <img src="./images/vendors/page.avif" alt="Vendor 3">
+                    <h3>Floral Dreams</h3>
+                    <p class="rating">Rating: ★★★☆☆ (3/5)</p>
+                    <p class="food-types">Services: Wedding Flowers, Centerpieces</p>
+                    <p class="quality">Quality: Good floral arrangements but service can be inconsistent. Ideal for those on a budget.</p>
+                </div>
+
+                <div class="vendor">
+                    <img src="./images/vendors/photo-1571268373914-e888c6dafeff.jpg" alt="Vendor 4">
+                    <h3>The Dream Venue</h3>
+                    <p class="rating">Rating: ★★★★☆ (4/5)</p>
+                    <p class="food-types">Services: Venue Rental, Event Coordination</p>
+                    <p class="quality">Quality: Beautiful venue with exceptional views, but pricing is on the higher end. Perfect for upscale weddings.</p>
+                </div>
+            </div>
+        </section>
+
+        <h3 align="center"><i>Click Down below to know about our wedding menu</i><br><br>
+        <a href="./menu.html" class="centered-link">Wedding Menu</a></h3>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wedding Planning Website. All rights reserved.</p>
+        <br>
+        <p>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./AboutUs.html">About Us</a>
+            <a href="./Social.html">Social</a>
+        </p>
+    </footer>
+</body>
+</html>
